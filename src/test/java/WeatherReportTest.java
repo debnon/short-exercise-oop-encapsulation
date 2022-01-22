@@ -16,9 +16,6 @@ public class WeatherReportTest {
         // act
         String actualTempResult = testWeatherReporter.checkTemp();
 
-        System.out.println(desiredTempResult);
-        System.out.println(actualTempResult);
-
         // assert
         assertEquals(desiredTempResult, actualTempResult);
     }
@@ -33,8 +30,6 @@ public class WeatherReportTest {
 
         // act
         String actualLocationResult = testWeatherReporter.checkLocation();
-
-
 
         // assert
         assertEquals(desiredLocationResult, actualLocationResult);
