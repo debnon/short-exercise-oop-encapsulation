@@ -29,3 +29,7 @@ public class DodgyBankAccount {
     }
 
 }
+
+// uses public parameters instead of private
+// uses public method for addReward() method which shouldn't be accessible for a user
+// doesn't use final declaration and correct formatting for variables
